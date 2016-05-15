@@ -14,7 +14,9 @@ This game manager utilizes a very cool front end library written by ButchersBoy.
 
 ## What's Inside
 Game Manager utilizes the Steam Web API to query games owned by the user, all it needs is your SteamID (and make sure it's public!)
-A glimpse at the cool code behind the scenes. If you're curious about more Steam Web API Querying, check out my repository just for that.
+A glimpse at the cool code behind the scenes. If you're curious about more Steam Web API Querying, check out my full SteamUtil.cs over at 
+https://github.com/KJBurnett/GameBuddy/blob/master/SteamUtil.cs
+
 ```C#
 private string QueryOwnedGames()
         {
