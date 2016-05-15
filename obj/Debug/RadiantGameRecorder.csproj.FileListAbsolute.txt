@@ -1,0 +1,54 @@
+F:\Google Drive\Documents\CS\Visual Studio Projects\C#\RadiantGameRecorder\RadiantGameRecorder\bin\Debug\RadiantGameRecorder.exe.config
+F:\Google Drive\Documents\CS\Visual Studio Projects\C#\RadiantGameRecorder\RadiantGameRecorder\bin\Debug\RadiantGameRecorder.exe
+F:\Google Drive\Documents\CS\Visual Studio Projects\C#\RadiantGameRecorder\RadiantGameRecorder\bin\Debug\RadiantGameRecorder.pdb
+F:\Google Drive\Documents\CS\Visual Studio Projects\C#\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\MainWindow.g.cs
+F:\Google Drive\Documents\CS\Visual Studio Projects\C#\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\App.g.cs
+F:\Google Drive\Documents\CS\Visual Studio Projects\C#\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder_MarkupCompile.cache
+F:\Google Drive\Documents\CS\Visual Studio Projects\C#\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder_MarkupCompile.lref
+F:\Google Drive\Documents\CS\Visual Studio Projects\C#\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\MainWindow.baml
+F:\Google Drive\Documents\CS\Visual Studio Projects\C#\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder.g.resources
+F:\Google Drive\Documents\CS\Visual Studio Projects\C#\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder.Properties.Resources.resources
+F:\Google Drive\Documents\CS\Visual Studio Projects\C#\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder.csproj.GenerateResource.Cache
+F:\Google Drive\Documents\CS\Visual Studio Projects\C#\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder.exe
+F:\Google Drive\Documents\CS\Visual Studio Projects\C#\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder.pdb
+F:\Google Drive\Documents\CS\Visual Studio Projects\C#\RadiantGameRecorder\RadiantGameRecorder\bin\Debug\MaterialDesignColors.dll
+F:\Google Drive\Documents\CS\Visual Studio Projects\C#\RadiantGameRecorder\RadiantGameRecorder\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\Google Drive\Documents\CS\Visual Studio Projects\C#\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\App.baml
+F:\Google Drive\Documents\CS\Visual Studio Projects\C#\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder.csprojResolveAssemblyReference.cache
+C:\Users\kyler\Programming Workspace\RadiantGameRecorder\RadiantGameRecorder\bin\Debug\RadiantGameRecorder.exe.config
+C:\Users\kyler\Programming Workspace\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder.exe
+C:\Users\kyler\Programming Workspace\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder.pdb
+C:\Users\kyler\Programming Workspace\RadiantGameRecorder\RadiantGameRecorder\bin\Debug\RadiantGameRecorder.exe
+C:\Users\kyler\Programming Workspace\RadiantGameRecorder\RadiantGameRecorder\bin\Debug\RadiantGameRecorder.pdb
+C:\Users\kyler\Programming Workspace\RadiantGameRecorder\RadiantGameRecorder\bin\Debug\MaterialDesignColors.dll
+C:\Users\kyler\Programming Workspace\RadiantGameRecorder\RadiantGameRecorder\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\kyler\Programming Workspace\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder.csprojResolveAssemblyReference.cache
+C:\Users\kyler\Programming Workspace\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\App.baml
+C:\Users\kyler\Programming Workspace\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\MainWindow.g.cs
+C:\Users\kyler\Programming Workspace\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\App.g.cs
+C:\Users\kyler\Programming Workspace\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder_MarkupCompile.cache
+C:\Users\kyler\Programming Workspace\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder_MarkupCompile.lref
+C:\Users\kyler\Programming Workspace\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\MainWindow.baml
+C:\Users\kyler\Programming Workspace\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder.g.resources
+C:\Users\kyler\Programming Workspace\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder.Properties.Resources.resources
+C:\Users\kyler\Programming Workspace\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder.csproj.GenerateResource.Cache
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\bin\Debug\RadiantGameRecorder.exe.config
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder.exe
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder.pdb
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\bin\Debug\RadiantGameRecorder.exe
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\bin\Debug\RadiantGameRecorder.pdb
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\bin\Debug\MaterialDesignColors.dll
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder.csprojResolveAssemblyReference.cache
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\App.baml
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\MainWindow.g.cs
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\App.g.cs
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder_MarkupCompile.cache
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder_MarkupCompile.lref
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\MainWindow.baml
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder.g.resources
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder.Properties.Resources.resources
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\obj\Debug\RadiantGameRecorder.csproj.GenerateResource.Cache
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\bin\Debug\Dragablz.dll
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\bin\Debug\Dragablz.pdb
+C:\Users\kyler\Documents\Visual Studio 2015\Projects\RadiantGameRecorder\RadiantGameRecorder\bin\Debug\Dragablz.xml

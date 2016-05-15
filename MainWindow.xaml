@@ -1,0 +1,98 @@
+﻿<Window x:Name="Radiant_Game_Recorder" x:Class="RadiantGameRecorder.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RadiantGameRecorder"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:dragablz="clr-namespace:Dragablz;assembly=Dragablz"
+        mc:Ignorable="d"
+        Title="Radiant Game Recorder" Height="720" Width="1280"
+
+    TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto">
+
+    <Grid>
+
+        <!-- Left Navigation Drawer with a Hamburger style Toggle Button for the Main Menu. -->
+        <materialDesign:DialogHost Identifier="RootDialog" Margin="0,-3,0,3">
+            <materialDesign:DrawerHost IsLeftDrawerOpen="{Binding ElementName=MenuToggleButton, Path=IsChecked}">
+                <materialDesign:DrawerHost.LeftDrawerContent>
+                    <DockPanel MinWidth="212">
+                        <ToggleButton Style="{StaticResource MaterialDesignHamburgerToggleButton}" 
+                                  DockPanel.Dock="Top"
+                                  HorizontalAlignment="Right" Margin="16"
+                                  IsChecked="{Binding ElementName=MenuToggleButton, Path=IsChecked, Mode=TwoWay}" />
+                        <ListBox x:Name="MenuListBox" Background="{x:Null}" FontSize="16" Foreground="#DDFFFFFF">
+                            
+                        </ListBox>
+                    </DockPanel>
+                </materialDesign:DrawerHost.LeftDrawerContent>
+                <DockPanel Margin="10,10,462,272"/>
+            </materialDesign:DrawerHost>
+        </materialDesign:DialogHost>
+
+        <Image x:Name="ImageBox" Grid.Column="1" Stretch="UniformToFill" HorizontalAlignment="Left" VerticalAlignment="Top" Drop="ImageBox_Drop" Opacity="0.6">
+            <Image.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFF0D9D9" Offset="1"/>
+                </LinearGradientBrush>
+            </Image.OpacityMask>
+        </Image>
+
+        <Button x:Name="button" Grid.ColumnSpan="2" Content="Play Game" Margin="10,0,0,35" Height="64" Opacity="0.8" FontSize="18.667" Foreground="#FFF9F9F9" HorizontalAlignment="Left" Width="144" VerticalAlignment="Bottom"/>
+        <Image x:Name="screen1" Grid.ColumnSpan="2" RenderOptions.BitmapScalingMode="HighQuality"  RenderOptions.EdgeMode="Aliased" HorizontalAlignment="Left" Margin="174,0,0,17" Width="200" Height="130" VerticalAlignment="Bottom">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="screen2" Grid.ColumnSpan="2" RenderOptions.BitmapScalingMode="HighQuality"  RenderOptions.EdgeMode="Aliased" HorizontalAlignment="Left" Margin="398,0,0,17" Width="200" Height="130" VerticalAlignment="Bottom">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="screen3" Grid.ColumnSpan="2" RenderOptions.BitmapScalingMode="HighQuality"  RenderOptions.EdgeMode="Aliased" HorizontalAlignment="Left" Margin="618,0,0,17" Width="200" Height="130" VerticalAlignment="Bottom">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+            <Image.ToolTip>
+                <ToolTip DataContext="{Binding PlacementTarget, RelativeSource={RelativeSource Self}}" Width="1024" Height="576">
+                    <Border BorderBrush="Black" BorderThickness=".5">
+                        <Image Source="{Binding Source}" Stretch="Fill" />
+                    </Border>
+                </ToolTip>
+            </Image.ToolTip>
+        </Image>
+        <Image x:Name="screen4" Grid.ColumnSpan="2" RenderOptions.BitmapScalingMode="HighQuality"  RenderOptions.EdgeMode="Aliased" HorizontalAlignment="Left" Margin="847,0,0,17" Width="200" Height="130" VerticalAlignment="Bottom">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+
+        <!-- Labels to visually show locations in the window. -->
+        <Label x:Name="PlayTimeLabel" Grid.ColumnSpan="2" Content="9hr 42m" Margin="108,67,0,0" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Label x:Name="InfoPlayLabel" Grid.ColumnSpan="2" Content="(Played)" HorizontalAlignment="Left" Margin="298,92,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.534,-1.463" FontSize="16"/>
+        <Label x:Name="ScreenshotsLabel" Grid.ColumnSpan="2" Content="Screenshots" Margin="174,0,0,127" FontSize="48" Height="68" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="287"/>
+        <Label x:Name="TitleLabel" Grid.ColumnSpan="2" Content="GAME_TITLE" HorizontalAlignment="Left" Margin="76,0,0,0" VerticalAlignment="Top" FontSize="64"/>
+        <Label x:Name="OpenScreenshotsLabel" Content="+ View All" VerticalAlignment="Bottom" Margin="448,0,0,147" Foreground="#DDA1D9EE" MouseLeftButtonUp="OpenScreenshotsLabel_MouseLeftButtonUp" HorizontalAlignment="Left" Width="75"/>
+
+        <!-- Right-hand side list box that contains a list of playable games. -->
+        <ListBox x:Name="GameListBox" Grid.ColumnSpan="2" HorizontalAlignment="Right" Height="669" Margin="0,10,10,0" Width="195" 
+                Background="Transparent" BorderBrush="Transparent" VerticalAlignment="Top" SelectionChanged="GameListBox_SelectionChanged" FontSize="16">
+            <ListBox.Resources>
+                <Style TargetType="{x:Type ListBoxItem}">
+                    <Setter Property="Background" Value="White" />
+                    <Setter Property="Margin" Value="1" />
+                </Style>
+            </ListBox.Resources>
+        </ListBox>
+        <ToggleButton Style="{StaticResource MaterialDesignHamburgerToggleButton}" IsChecked="False"
+        	x:Name="MenuToggleButton" Height="48" Margin="10,0,0,0" Width="39" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+    </Grid>
+
+</Window>
