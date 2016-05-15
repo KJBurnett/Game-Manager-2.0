@@ -1,9 +1,9 @@
 # Game-Manager-2.0
-A visually and functionally updated version of Game Buddy
+A visually and functionally updated version of Game Buddy which can be found here: https://github.com/KJBurnett/GameBuddy
 
 ## Functionality
 - Collect games from any game client into a single client for ease of access.
-- Records user gameplay time and displays it in the upper left corner. [Steam Web API playtime functionality]
+- Records user gameplay time and displays it in the upper left corner. [Steam Web API playtime functionality TBA]
 - Displays most recent game screenshots. 
 - Backs up and Restores offline game save files.
 
