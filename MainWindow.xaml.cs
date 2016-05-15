@@ -44,6 +44,7 @@ namespace RadiantGameRecorder
 
             GameListBox.SelectedIndex = 11;
 
+            // Current testbed, please ignore! :)
             screen1.Source = new BitmapImage(new Uri("C:\\Users\\kyler\\Documents\\Overwatch\\ScreenShots\\Overwatch\\ScreenShot_16-05-08_16-11-08-000.jpg"));
             screen2.Source = new BitmapImage(new Uri("C:\\Users\\kyler\\Documents\\Overwatch\\ScreenShots\\Overwatch\\ScreenShot_16-05-08_19-06-47-000.jpg"));
             screen3.Source = new BitmapImage(new Uri("C:\\Users\\kyler\\Documents\\Overwatch\\ScreenShots\\Overwatch\\ScreenShot_16-05-08_22-07-21-000.jpg"));
