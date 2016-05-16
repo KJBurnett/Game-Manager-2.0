@@ -8,7 +8,7 @@ A visually and functionally updated version of Game Buddy which can be found her
 - Backs up and Restores offline game save files.
 
 ### About
-This game manager utilizes a very cool front end library written by ButchersBoy. Check out his work at http://materialdesigninxaml.net/
+This game manager utilizes a very cool front end library that allows you to design in an Android Material outline - written by ButchersBoy. Check out his work at http://materialdesigninxaml.net/
 
 ![Alt text](https://raw.githubusercontent.com/KJBurnett/Game-Manager-2.0/master/overwatch%20gamemanager.PNG "Video Game Manager 2.0")
 
